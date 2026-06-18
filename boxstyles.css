@@ -1,0 +1,23 @@
+.box1,.box2,.box3{
+    padding : 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 119, 119);
+    /* margin: 10px auto; */
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.box1{
+    margin-top: -70px;
+    /* goes 70px up by overlapping top elements */
+}
+.box2{
+    margin-top: 50px;
+    /* leaves gap 50px from box1 */
+    margin-bottom: -50px;
+    /* pulls box3 50px up making it overlap */
+}
+.box3{
+    margin: 0 auto;
+    /* makes box centre */
+}
