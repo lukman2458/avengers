@@ -1,2 +1,2 @@
 # git_test
-Hello Odin!
+This page is for practising what i learned like my own rough work
