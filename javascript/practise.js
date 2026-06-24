@@ -66,6 +66,7 @@
 
 // ---------------Logical operators--------
 // ------AND &&
+
 // let age = prompt("what is your age");
 // if (age>= 14 && age <= 90){
 //     alert("You can get in the war")
@@ -73,6 +74,7 @@
 // else{
 //     alert("You cant get in war")
 // }
+
 // -----NOT !
 // let age = prompt("what is your age");
 // if (!(age>= 14 && age <= 90)){
@@ -81,6 +83,7 @@
 // else{
 //     alert("You can get in the war")
 // }
+
 // ---------OR ||
 // let age = prompt("what is your age");
 // if (age < 14 || age > 90){
@@ -90,3 +93,20 @@
 //     alert("You can get in the war")
 // }
 
+// --------------Switch condition-------------
+let a = prompt("Give a value");
+switch(+a){
+    case 1:
+        alert("1")  //if a === 1
+        break;      //comes out of switch
+    case 0:
+        alert("0")
+        break;
+    case 2:
+    case 3:         //if a === 2 || a === 3
+        alert("2,3")
+        break;
+    default :       //else
+     alert("not exists")  
+     break;  
+}
