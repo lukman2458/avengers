@@ -94,19 +94,69 @@
 // }
 
 // --------------Switch condition-------------
-let a = prompt("Give a value");
-switch(+a){
-    case 1:
-        alert("1")  //if a === 1
-        break;      //comes out of switch
-    case 0:
-        alert("0")
-        break;
-    case 2:
-    case 3:         //if a === 2 || a === 3
-        alert("2,3")
-        break;
-    default :       //else
-     alert("not exists")  
-     break;  
-}
+// let a = prompt("Give a value");
+// switch(+a){
+//     case 1:
+//         alert("1")  //if a === 1
+//         break;      //comes out of switch
+//     case 0:
+//         alert("0")
+//         break;
+//     case 2:
+//     case 3:         //if a === 2 || a === 3
+//         alert("2,3")
+//         break;
+//     default :       //else
+//      alert("not exists")  
+//      break;  
+// }
+
+// ------------------function---------------
+// function multiply(a,b){ //function creating a and b are parameters
+//     return (a*b) ;
+// }
+// const n1 =  prompt("Enter first number")
+// const n2 = prompt("Enter second number")
+// result = multiply(+n1,+n2) //function calling n1 and n2 are args
+// alert(`Multiplication of 2 numbers is : ${result}`)
+
+// ------------Example 2
+// function checkAge(age){
+//     return age>18 || confirm("Did your parents allow you") //OR stops at first truthy value
+// }
+// let age = prompt("Enter your age")
+// if(checkAge(age)){
+//     alert("allowed")
+// }
+// else{
+//     alert("not allowed")
+// }
+
+// ---------------Function expression
+// let add = function(a,b){
+//     return a + b
+// };
+// alert(add(2,3))
+
+// -----------------Arrow function 
+// let sayHi = () => alert("Hi") // "() => return is an arrow func"
+// sayHi()
+// ------------
+// function callBack(yes,no){
+//     let a = prompt("Enter 7 or 10")
+//     a == "7" ? yes() : no() 
+// }
+// alert(callBack(
+//     () => alert("ronaldo"),
+//     () => alert("messi")))
+
+// -----------------a function exercise
+// function capitalize(name){
+//     let fullName = name.toLowerCase()
+//     let a = fullName.slice(0,1)
+//     let b = fullName.slice(1)
+//     let firstLetter = a.toUpperCase()
+//     let result = firstLetter.concat(b)
+//     return (result)
+// }
+// capitalize("oRange");
